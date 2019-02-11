@@ -29,10 +29,12 @@ if initial commit, tag the version number as 0.0.1
 
 There are 2 main branch modules here currently:
 > feature/homepage
+
 > feature/about
 
 And we break down the branches further:
 > feature/homepage/master
+
 > feature/about/master
 
 'master' on each main branch module is where the sub-branch of it will receive pull request:
@@ -111,6 +113,7 @@ let the QA test the fixed issue:
 
 once the issue is closed, pull request the fix to development and master branch:
 > fix/staging/issue-488 > development
+
 > fix/staging/issue-488 > master
 
 increase version number, add 0.0.1
